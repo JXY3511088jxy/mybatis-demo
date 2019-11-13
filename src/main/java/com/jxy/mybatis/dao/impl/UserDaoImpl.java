@@ -16,7 +16,7 @@ public class UserDaoImpl implements UserDao {
 
 
     public User queryUserById(String id) {
-        return this.sqlSession.selectOne("UserDao.queryUserById", id);
+        return this.sqlSession.selectOne("UserDao.queryUserById1", id);
     }
 
 
